@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:id="@+id/message_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="6"
+                android:background="@drawable/rounded_cornor"
+                android:padding="16dp"
+                android:text="Android charting application xml ui design tutorial with example. Android charting application "
+                android:textColor="#FFF" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="-15dp"
+                android:layout_marginBottom="-6.5dp"
+                android:layout_weight="1"
+                android:src="@drawable/message_out_arrow" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/timing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18:05"
+            android:textSize="14dp"
+            android:layout_toStartOf="@+id/correct2"
+            android:layout_below="@+id/layout1"
+            android:layout_toLeftOf="@+id/correct1"
+            android:layout_marginLeft="10dp" />
+
+        <ImageView
+            android:id="@+id/correct1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_correct1"
+            android:layout_below="@+id/layout1"
+            android:layout_marginTop="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginHorizontal="16dp"
+            />
+
+        <ImageView
+            android:id="@+id/correct2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout1"
+            android:layout_alignRight="@+id/correct1"
+            android:padding="8dp"
+            android:src="@drawable/ic_correct2" />
+
+    </RelativeLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1087607528374",
+    "project_id": "bellawire-9fd3a",
+    "storage_bucket": "bellawire-9fd3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087607528374:android:db7447d7ee953887cd3f17",
+        "android_client_info": {
+          "package_name": "com.example.bellawirecalldesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087607528374-78bmfetk8be976f64nbvo6lc49gpm3sg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjxcBLWqgpn33tt_F7LUJrtNg7bF5n3Jo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087607528374-78bmfetk8be976f64nbvo6lc49gpm3sg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
